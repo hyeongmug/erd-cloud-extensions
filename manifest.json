@@ -1,0 +1,13 @@
+{
+  "name": "ERD Cloud 광고 삭제",
+  "description": "Made by lhm",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://www.erdcloud.com/**", "http://www.erdcloud.com/**"],
+      "css": ["./contentScripts/style.css"],
+      "run_at": "document_start"
+    }
+  ]
+}
